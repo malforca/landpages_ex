@@ -8,8 +8,8 @@ o controle das tarefas desse projeto será realizado no Github
 
 ## ícones
 
-nova funcionabilidade
-atualização 
-correção de bug
-release
-"concluido"
+- nova funcionabilidade
+- atualização 
+- correção de bug
+- release
+- "concluido"
