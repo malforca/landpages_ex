@@ -12,3 +12,4 @@ nova funcionabilidade
 atualização 
 correção de bug
 release
+"concluido"
