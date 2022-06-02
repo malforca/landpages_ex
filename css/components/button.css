@@ -1,0 +1,48 @@
+.banner button {
+    font-family: var(--font-action);
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    background-color: rgb(106, 48, 147);
+    background: linear-gradient(83deg, rgba(106, 48, 147, 1) 76%, rgba(160, 68, 255, 1) 96%);
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    animation: moveBanner 1s 0.9s forwards;
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.banner button:hover {
+    opacity: 1;
+}
+
+.btn {
+    background-color: rgb(106, 48, 147);
+    background: linear-gradient(83deg, rgba(106, 48, 147, 1) 76%, rgba(160, 68, 255, 1) 96%);
+    font-family: var(--font-action);
+    font-size: .9rem;
+    color: #eee;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+}
+
+.btn-orcamento {
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
+}
