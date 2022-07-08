@@ -1,0 +1,10 @@
+:root {
+    --bgground: #000;
+    --colorWhite: #fbf5f5;
+    --colorOrange: #d1683b;
+    --colorDark: #2d3142;
+    --font: 'Roboto', serif;
+    --distanceOne: 20px;
+    --distanceTwo: 40px;
+    --widthmax: 1300px;
+}

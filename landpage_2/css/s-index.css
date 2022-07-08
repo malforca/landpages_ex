@@ -1,0 +1,520 @@
+@import url('/css/root.css');
+@import url('/css/reset.css');
+@import url('/css/global.css');
+@import url('/css/components/menu.css');
+@import url('/css/components/button.css');
+
+/* main-cta */
+.main_cta {
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorDark);
+    background-image: url('/img/bg_main_home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_cta article {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.main_cta h1 {
+    margin: 0 270px 20px 270px;
+    text-align: center;
+    color: var(--colorWhite);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.main_cta p {
+    margin-bottom: var(--distanceTwo);
+    color: var(--colorWhite);
+    font-size: 1.8rem;
+}
+
+/* main_blog */
+.main_blog {
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorWhite);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_blog_header {
+    width: var(--widthmax);
+    margin-left: var(--distanceOne);
+}
+
+.main_blog_header h1 {
+    padding-top: var(--distanceOne);
+}
+
+.main_blog_header h1 i {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: var(--distanceOne);
+}
+
+.main_blog_header p {
+    color: var(--colorDark);
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: var(--distanceOne);
+}
+
+.main_blog_article {
+    width: var(--widthmax);
+    margin-right: var(--distanceOne);
+    margin-bottom: var(--distanceTwo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_blog article {
+    width: 280px;
+    height: 220px;
+    margin: var(--distanceOne);
+}
+
+.main_blog article a img {
+    width: 300px;
+    height: 150px;
+}
+
+.main_blog article p {
+    color: var(--colorOrange);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main_blog article p a {
+    color: var(--colorOrange);
+    font-size: 0.9rem;
+}
+
+
+.main_blog article h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.main_blog article h2 a {
+    color: var(--colorDark);
+}
+
+/* main_option */
+.main_optin_content {
+    background-color: var(--colorDark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_optin_content header {
+    padding: var(--distanceTwo);
+    color: var(--colorWhite);
+}
+
+.main_optin_content form {
+    margin: var(--distanceOne);
+}
+
+.main_optin_content form input {
+    border: 0;
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.main_optin_content form button {
+    color: var(--colorWhite);
+    font-weight: bold;
+    border: 0;
+    padding: 12px 60px;
+    background-color: var(--colorOrange);
+    border-radius: 10px;
+}
+
+/* main_curse */
+.main_curse {
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorWhite);
+}
+
+.main_curse_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_curse_header img {
+    margin-top: var(--distanceTwo);
+}
+
+.main_curse_header h1 {
+    padding: var(--distanceOne);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.main_curse_header i {
+    padding-right: var(--distanceOne);
+}
+
+.main_curse_header p {
+    text-align: center;
+    padding-bottom: var(--distanceOne);
+    margin: 0px 200px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* main_curse_content */
+.main_curse_content {
+    width: var(--widthmax);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: var(--distanceTwo);
+}
+
+.main_curse_content article {
+    width: 500px;
+    height: 80px;
+    margin: var(--distanceOne);
+    padding: var(--distanceOne);
+    border-radius: 10px;
+    color: var(--colorWhite);
+    background-color: var(--colorOrange);
+}
+
+.main_curse_content h2 {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+
+/* main_course_fullwidth */
+.main_course_fullwidth {
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorOrange);
+}
+
+.main_course_rating_content_title {
+    text-align: center;
+    color: var(--colorWhite);
+    margin-bottom: var(--distanceOne);
+}
+
+.main_course_rating_content_title h2 {
+    padding-top: var(--distanceTwo);
+    padding-bottom: var(--distanceOne);
+    font-size: 2.6rem;
+}
+
+.main_course_rating_content_title p {
+    padding-top: var(--distanceOne);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.main_course_rating_content_comment {
+    width: var(--widthmax);
+    margin: auto;
+    padding-bottom: var(--distanceTwo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_course_rating_content_comment article {
+    width: 500px;
+    height: 120px;
+    margin: var(--distanceOne);
+    padding: var(--distanceOne);
+    border-radius: 10px;
+    color: var(--colorDark);
+    background-color: var(--colorWhite);
+    flex-wrap: wrap;
+}
+
+.main_course_rating_content_comment article h3 {
+    padding-bottom: var(--distanceOne);
+}
+
+.main_course_rating_content_comment article img {
+    width: 20px;
+}
+
+/* main_school */
+.main_school {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--colorWhite);
+}
+
+.main_school_content {
+    width: 810px;
+    height: 100%;
+    margin-right: var(--distanceTwo);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.main_school_content_right img {
+    width: 270px;
+    border-radius: 50%;
+}
+
+.main_school_header h1 {
+    padding-top: var(--distanceTwo);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.main_school_header p {
+    padding-bottom: var(--distanceOne);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+.main_school_content_left_content header p {
+    padding: 8px 8px 8px 50px;
+    background-color: var(--colorDark);
+    color: var(--colorWhite);
+}
+
+.main_school_content_left_content header a {
+    font-size: 1rem;
+    color: var(--colorWhite);
+    padding: 5px 50px 5px 5px;
+}
+
+.main_school_content_left_content header h2 {
+    padding-top: var(--distanceOne);
+    font-size: 1.3rem;
+}
+
+.main_school_content_left_content p {
+    padding-top: var(--distanceOne);
+}
+
+.main_school_list {
+    width: 100%;
+    height: 100%;
+    color: var(--colorWhite);
+    margin-top: var(--distanceOne);
+    padding: 20px;
+    background-color: var(--colorOrange);
+    border-radius: 10px;
+}
+
+.main_school_list header h2 {
+    padding-bottom: var(--distanceOne);
+}
+
+.main_school_list div {
+    width: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main_school_list div p {
+    width: 350px;
+    height: 20px;
+}
+
+.main_school_list div i {
+    color: var(--colorDark);
+    padding-right: 5px;
+}
+
+.main_school_address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: var(--distanceTwo);
+}
+
+.main_school_address h2 i {
+    padding: 5px;
+}
+
+.main_school_address p {
+    font-weight: 700;
+}
+
+/* main_tutor */
+.main_tutor {
+    width: 100%;
+    height: 100%;
+    color: var(--colorWhite);
+    background-color: var(--colorDark);
+}
+
+.main_tutor_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_tutor_content header {
+    margin-top: var(--distanceTwo);
+    margin-bottom: var(--distanceOne);
+    text-align: center;
+}
+
+.main_tutor_content_img img {
+    width: 200px;
+    border: 5px solid var(--colorWhite);
+    border-radius: 50%;
+}
+
+.main_tutor_content_history {
+    width: 1230px;
+    height: 100%;
+    text-align: center;
+}
+
+.main_tutor_social_network {
+    width: 700px;
+    height: 110px;
+    background-color: var(--colorOrange);
+    margin-top: var(--distanceTwo);
+    margin-bottom: var(--distanceTwo);
+    border-radius: 10px;
+}
+
+.main_tutor_social_network h2 {
+    padding-top: var(--distanceOne);
+    text-align: center;
+}
+
+.main_tutor_social_network div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: var(--distanceOne);
+}
+
+.main_tutor_social_network div h3 a {
+    font-size: 0.9rem;
+    color: var(--colorOrange);
+    padding: 4px 15px 4px 15px;
+    border-radius: 5px;
+    background-color: var(--colorWhite);
+}
+
+.main_tutor_social_network div h3 a i {
+    padding-right: 5px;
+}
+
+/* .main_optin_footer */
+.main_optin_footer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorWhite);
+}
+
+.main_optin_footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_optin_footer_content h1 {
+    padding-top: var(--distanceTwo);
+    padding-bottom: var(--distanceTwo);
+}
+
+.main_optin_footer_content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colorOrange);
+    margin-bottom: var(--distanceTwo);
+    padding: 3px 40px 3px 40px;
+    border-radius: 10px;
+}
+
+.main_optin_footer_content h2 a {
+    font-size: 1.2rem;
+    color: var(--colorWhite);
+}
+
+/* main_footer */
+.main_footer {
+    width: 100%;
+    height: 100%;
+    color: var(--colorDark);
+    background-color: var(--colorWhite);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main_footer header {
+    width: 1210px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: var(--distanceTwo);
+}
+
+.main_footer article {
+    width: 350px;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: var(--distanceOne);
+}
+
+.main_footer article h2 {
+    padding-bottom: var(--distanceOne);
+}
+
+.main_footer article a {
+    color: var(--colorDark);
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 100%;
+    color: var(--colorWhite);
+    text-align: center;
+    background-color: var(--colorDark);
+}
+
+footer p {
+    padding: var(--distanceTwo);
+}
