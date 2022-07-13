@@ -481,12 +481,20 @@
 }
 
 .main_footer header {
-    width: 1210px;
+    width: 1060px;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: var(--distanceTwo);
+}
+
+.main_footer-article {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .main_footer article {
@@ -517,4 +525,76 @@ footer {
 
 footer p {
     padding: var(--distanceTwo);
+}
+
+/* responsive */
+@media(max-width: 1024px) {
+    .main_optin_content {
+        flex-direction: column;
+    }
+
+    .main_optin_content form {
+        margin-bottom: 0px 0px 10px 0px;
+    }
+
+    .main_optin_content header {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .main_curse_content {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .main_course_rating_content_comment {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .main_school_content {
+        width: auto;
+        height: 100%;
+        margin: var(--distanceTwo);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main_school_content_right {
+        display: none;
+    }
+
+    .main_school_header h1 {
+        padding-top: 0;
+    }
+
+    .main_school_address {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .main_tutor_content_history p {
+        width: 900px;
+        margin: auto;
+    }
+
+    .main_footer-article {
+        width: 100%;
+    }
+
+    .main_footer header {
+        width: 770px;
+    }
+
+    .main_footer article {
+        width: 250px;
+        height: 170px;
+    }
+}
+
+@media(max-width: 900px) {
+    .main_tutor_content_history p {
+        width: 800px;
+        margin: auto;
+    }
 }
