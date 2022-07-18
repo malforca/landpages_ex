@@ -593,8 +593,45 @@ footer p {
 }
 
 @media(max-width: 900px) {
-    .main_tutor_content_history p {
-        width: 800px;
-        margin: auto;
+    .main_cta h1 {
+        margin: 0 100px 20px 100px;
     }
+}
+
+.main_tutor_content_history p {
+    width: 800px;
+}
+
+@media(max-width: 768px) {
+    .main_cta h1 {
+        margin: 0 100px 20px 100px;
+    }
+
+    .main_school_content {
+        width: 690px;
+    }
+
+    .main_school_list {
+        width: 500px;
+    }
+
+    .main_school_list p {
+        padding-right: 16px;
+    }
+
+    .main_tutor_content_history p {
+        width: 630px;
+    }
+
+    .main_footer-article {
+        margin-bottom: 0px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .main_footer header {
+        justify-content: center;
+
+    }
+
 }
