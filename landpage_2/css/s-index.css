@@ -635,3 +635,18 @@ footer p {
     }
 
 }
+
+@media(max-width: 720px) {
+    .main_course_rating_content_title h2 {
+        margin: var(--distanceOne);
+    }
+
+    .main_tutor_social_network {
+        width: 650px;
+    }
+
+    .main_optin_footer_content h1 {
+        font-size: 1.3rem;
+        margin: var(--distanceOne);
+    }
+}
